@@ -4,9 +4,9 @@ function slide(){
     slideNo++;
     if(slideNo>2) slideNo=0;
     
-    var y = slideNo * -100 + '%';
+    var x = slideNo * -100 + '%';
     
-    $('#slideBox').css('margin-left',x);
+    $('#slideBox').css('margin-left',x); /* 슬라이드 왼쪽으로 이동 */
 }
 
 function playSlide(){

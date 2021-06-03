@@ -97,9 +97,42 @@ a { color:#333; text-decoration: none }
 }
 
 .slide {
-    width:100%;
+    width:33.3333%;
     display: block;
 }
+
+
+/*----------------------------- secC -----------------------------*/
+#secC {
+    width:100%; height: 200px;
+    display: flex;
+    background:#0076BE;
+}
+
+#secC, .box1 {
+    width:400px;
+    padding:5px;
+}
+
+.button {
+    border:none; background:#777;
+    width:100px; line-height: 40px;
+    text-align: center;
+    color:#FFF;
+    cursor: pointer;
+}
+
+.button:hover { background:#FFF; color:#000 }
+
+.active { background:#FFF; color:#000 }
+
+
+
+
+
+
+
+
 
 
 
